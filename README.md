@@ -1,5 +1,7 @@
 # Five minute talks
 
+[![Deploy](https://github.com/devpro/five-min-talks/actions/workflows/deploy.yaml/badge.svg?branch=main)](https://github.com/devpro/five-min-talks/actions/workflows/deploy.yaml)
+
 Presentation materials of "5 minute talks" series.
 
 ## How to contribute
