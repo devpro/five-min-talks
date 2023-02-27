@@ -18,6 +18,9 @@ concurrency:
   group: "pages"
   cancel-in-progress: true
 
+env:
+  SITE_BASE: five-min-talks
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -34,8 +37,8 @@ jobs:
         run: npm install
       - name: Build web content
         run: |
-          npx slidev build slides/index.md -o ../_site
-          npx slidev build slides/automated-testing-101.md -o ../_site/automated-testing-101
+          npx slidev build slides/index.md --base $SITE_BASE/ -o ../_site
+          npx slidev build slides/automated-testing-101.md --base $SITE_BASE/automated-testing-101/ -o ../_site/automated-testing-101
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
   deploy:
