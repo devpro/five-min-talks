@@ -7,4 +7,4 @@ css: unocss
 
 ## Content
 
-* [Automated Testing 101](/automated-testing-101)
+* [Automated Testing 101](/five-min-talks/automated-testing-101)
