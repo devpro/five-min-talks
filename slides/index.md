@@ -1,3 +1,8 @@
+---
+theme: default
+css: unocss
+---
+
 # Five minute talks
 
 ## Content
