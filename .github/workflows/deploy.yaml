@@ -27,6 +27,9 @@ jobs:
         run:  npm i -g @slidev/cli
       - name: Build slides
         run: |
+          pwd
+          ls
+          ls slides
           slidev build slides/index.md -o ../_site
           slidev build slides/automated-testing-101.md -o ../_site/automated-testing-101
       # - name: Deploy to GitHub pages
