@@ -2,13 +2,13 @@
 
 Presentation materials of "5 minute talks" series.
 
-## Contribute
+## How to contribute
 
-This content is using the technical stack: [Slidev](https://sli.dev/) ([code](https://github.com/slidevjs/slidev))
+This content is using [Slidev](https://sli.dev/) ([code](https://github.com/slidevjs/slidev), [docs](https://sli.dev/guide/why.html))
 
 To start the slide show:
 
-- Run `npm install`
-- Run `npm run dev` (or `npx slidev --open`)
-- Visit [localhost:3030](http://localhost:3030)
-- Edit the [slides.md](./slides.md) to see the changes.
+- Run `npm install` from a terminal
+- Run `npm run dev` (or `npx slidev --open`) from a terminal
+- Open [localhost:3030](http://localhost:3030) in a browser
+- Create or edit the content in `slides` folder
