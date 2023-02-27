@@ -7,22 +7,28 @@ on:
     branches: [ "main" ]
   workflow_dispatch: {}
 
+concurrency:
+  group: "deploy"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@v2
-      - name: Instal Node.js
+      - name: Instal Node.js (LTS)
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 18
       - name: Install NPM packages
         run: npm install
+      - name: Install slidev
+        run:  npm i -g @slidev/cli
       - name: Build slides
         run: |
-          npx slidev build slides/index.md -o ../_site
-          npx slidev build slides/automated-testing-101.md -o ../_site/automated-testing-101
+          slidev build slides/index.md -o ../_site
+          slidev build slides/automated-testing-101.md -o ../_site/automated-testing-101
       # - name: Deploy to GitHub pages
       #   uses: crazy-max/ghaction-github-pages@v2
       #   with:
