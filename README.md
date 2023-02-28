@@ -2,7 +2,7 @@
 
 [![Deploy](https://github.com/devpro/five-min-talks/actions/workflows/deploy.yaml/badge.svg?branch=main)](https://github.com/devpro/five-min-talks/actions/workflows/deploy.yaml)
 
-Presentation materials of "5 minute talks" series.
+Presentation materials of "5 minute talks" series. Check-out [devpro.github.io/five-min-talks](https://devpro.github.io/five-min-talks/)!
 
 ## How to contribute
 

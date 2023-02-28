@@ -1,6 +1,7 @@
 ---
 theme: default
 css: unocss
+transition: slide-left
 ---
 
 # Five minute talks
