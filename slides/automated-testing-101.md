@@ -15,7 +15,7 @@ Want to know about one of the most important best practices in software developm
 
 # Objectives
 
-What can be achieved with the right approach?
+What can be achieved with automated testing?
 
 - 🎯 **Focus** on the real added value
 - 🚀 **Reduce** the Time To Market
@@ -37,9 +37,9 @@ Foundation of any testing strategy
 
 What is difficult to have with test automation?
 
-- ⛑ **Maintenable** tests
+- ⛑ **Maintenable** tests (over time)
 - 🏬 **Reproducible** data set
-- ✍ **Inclusive** solution with contributions from non-technical people
+- ✍ **Open** solution with contributions from non-technical people
 - 🧪 **Straightforward** test plan
 - 📖 **Comprehensive** test results
 - 🐛 **Investigable** errors
@@ -48,7 +48,7 @@ What is difficult to have with test automation?
 
 # Lessons learned
 
-Known recipes to succeed
+Known recipes for success
 
 - Tests are executed in a neutral environment (automation pipelines)
 - Development and testing of any change are done at the same time
@@ -106,11 +106,10 @@ Feature: Guess the word
 
 ## Open-source tooling
 
-Available tooling
+Most used projects
 
 - [**Cucumber**](https://cucumber.io/) ([GitHub org](https://github.com/cucumber))
 - [**Cypress**](https://www.cypress.io/) ([code](https://github.com/cypress-io/cypress) _★ 42.6k_)
 - [**Jest**](https://jestjs.io/) ([code](https://github.com/facebook/jest) _★ 41.4k_)
 - [**Playwright**](https://playwright.dev/) ([code](https://github.com/microsoft/playwright) _★ 47.7k_)
 - [**Selenium**](https://www.selenium.dev/) ([code](https://github.com/SeleniumHQ/selenium) _★ 25.8k_)
-- [**Taiko**](https://taiko.dev/) ([code](https://github.com/getgauge/taiko) _★ 3.2k_)
