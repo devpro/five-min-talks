@@ -37,8 +37,10 @@ jobs:
         run: npm install
       - name: Build web content
         run: |
-          npx slidev build slides/index.md --base $SITE_BASE/ -o ../_site
-          npx slidev build slides/automated-testing-101.md --base $SITE_BASE/automated-testing-101/ -o ../_site/automated-testing-101
+          # temporary fix as slidev build takes the invalid path (https://github.com/slidevjs/slidev/blob/41be0cb3f43e4f3df0a6a07c0ee32fd07463d28f/packages/slidev/node/options.ts, method getUserRoot)
+          cp -R slides/* .
+          npx slidev build index.md --base $SITE_BASE/ -o _site
+          npx slidev build automated-testing-101.md --base $SITE_BASE/automated-testing-101/ -o _site/automated-testing-101
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
   deploy:

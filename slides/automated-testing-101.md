@@ -29,7 +29,7 @@ What can be achieved with the right approach?
 
 Foundation of any testing strategy
 
-<img src="/images/pyramid-test.png?raw=true" alt="pyramid of tests" class="m-8 ml-30 h-80 rounded shadow" />
+<img src="/images/pyramid-test.png" alt="pyramid of tests" class="m-8 ml-30 h-80 rounded shadow" />
 
 ---
 
