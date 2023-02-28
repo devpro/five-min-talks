@@ -4,6 +4,7 @@ highlighter: shiki
 lineNumbers: false
 css: unocss
 transition: slide-left
+title: Automated Testing 101
 ---
 
 # Automated Testing 101
@@ -14,64 +15,77 @@ Want to know about one of the most important best practices in software developm
 
 # Objectives
 
-What can be achieved through test automation?
+What can be achieved with the right approach?
 
 - 🎯 **Focus** on the real added value
 - 🚀 **Reduce** the Time To Market
 - 🛎 **Guarantee** the quality of service
-- 💪 **Overcome** IT complecity
+- 💪 **Overcome** IT complexity
 - 👷 **Enable** technical improvement reworks
 
 ---
 
 # Pyramid of Tests
 
-<img src="/images/pyramid-test.png" alt="pyramid of tests" width="800"/>
+Foundation of any testing strategy
+
+<img src="/images/pyramid-test.png?raw=true" alt="pyramid of tests" class="m-8 ml-30 h-80 rounded shadow" />
 
 ---
 
-## Challenges
+# Challenges
 
 What is difficult to have with test automation?
 
-- **Maintenable** tests
-- **Reproducible** data set
-- **Inclusive** solution with contributions from non-technical people
-- **Straightforward** test plan
-- **Comprehensive** test results
-- **Investigable** Errors
+- ⛑ **Maintenable** tests
+- 🏬 **Reproducible** data set
+- ✍ **Inclusive** solution with contributions from non-technical people
+- 🧪 **Straightforward** test plan
+- 📖 **Comprehensive** test results
+- 🐛 **Investigable** errors
 
 ---
 
-## Good Practices
+# Lessons learned
 
-- Pipelines orchestrate the run of the tests
-- Automated testing is fully integrated in development lifecycle
-- Specifications follow an easy-to-read standard
-- Strong collaboration between all actors
-- Tools and processes must serve the people
+Known recipes to succeed
 
----
-
-## PageObject Pattern
-
-![Page Objects, HTML Wrapper](https://www.martinfowler.com/bliki/images/pageObject/pageObject.png)
+- Tests are executed in a neutral environment (automation pipelines)
+- Development and testing of any change are done at the same time
+- Specifications are accessible and explicit
+- Best practices and patterns are followed while engineering the solution
+- Any failure in production is a perfect candidate for test automation
+- Focus is made on the most used and critical usecases
 
 ---
 
-## BDD (Behavior driven development)
+# PageObject Pattern
 
-![Automated Tests, Executable Specifications, Living Documentation](https://i.imgur.com/Kpxju8c.png)
+Split the code between the application features and the UI components
+
+<img src="https://www.martinfowler.com/bliki/images/pageObject/pageObject.png" alt="Page Objects, HTML Wrapper" class="m-8 ml-50 h-80 rounded shadow" />
 
 ---
 
-## Los 3 amigos
+# BDD (Behavior driven development)
 
-![Business, Testing, Development](https://dgage01.files.wordpress.com/2021/04/bdd-three-amigos.png)
+An Agile software development process that encourages collaboration
+
+<img src="/images/bdd.png" alt="Automated Tests, Executable Specifications, Living Documentation" class="m-8 ml-60 h-80 rounded shadow" />
+
+---
+
+# Los 3 amigos
+
+Business, Testing, Development
+
+<img src="/images/los-3-amigos.jpg" alt="Los 3 Amigos" class="ml-70 h-100 rounded shadow" />
 
 ---
 
 ## Gherkin language
+
+Describe any process in simple words
 
 ```gherkin
 Feature: Guess the word
@@ -91,6 +105,8 @@ Feature: Guess the word
 ---
 
 ## Open-source tooling
+
+Available tooling
 
 - [**Cucumber**](https://cucumber.io/) ([GitHub org](https://github.com/cucumber))
 - [**Cypress**](https://www.cypress.io/) ([code](https://github.com/cypress-io/cypress) _★ 42.6k_)
