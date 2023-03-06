@@ -83,7 +83,7 @@ Business, Testing, Development
 
 ---
 
-## Gherkin language
+# Gherkin language
 
 Describe any process in simple words
 
@@ -104,7 +104,7 @@ Feature: Guess the word
 
 ---
 
-## Open-source tooling
+# Open-source tooling
 
 Most used projects
 

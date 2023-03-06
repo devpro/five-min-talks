@@ -6,9 +6,9 @@ Presentation materials of "5 minute talks" series. Check-out [devpro.github.io/f
 
 ## How to contribute
 
-This content is using [Slidev](https://sli.dev/) to generate presentation from Markdown files. To go further, you can look at the [GitHub project](https://github.com/slidevjs/slidev) and the [documentation](https://sli.dev/guide/why.html)).
+This content is using [Slidev](https://sli.dev/) to generate presentation from Markdown files. To go further, you can look at the [GitHub project](https://github.com/slidevjs/slidev) and the [documentation](https://sli.dev/guide/why.html).
 
-Additional content can be added to the Markdown pages with [Mermaid Diagramming and charting tool](https://mermaid.js.org/) and design can be updated with [UnoCSS](https://uno.antfu.me/).
+Additional content can be added to the Markdown pages with [Mermaid Diagramming and charting tool](https://mermaid.js.org/) and the design can be updated with [UnoCSS](https://uno.antfu.me/).
 
 To run the project locally:
 
