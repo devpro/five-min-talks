@@ -41,6 +41,7 @@ jobs:
           cp -R slides/* .
           npx slidev build index.md --base $SITE_BASE/ -o _site
           npx slidev build automated-testing-101.md --base $SITE_BASE/automated-testing-101/ -o _site/automated-testing-101
+          npx slidev build presentation-as-code.md --base $SITE_BASE/presentation-as-code/ -o _site/presentation-as-code
       - name: Upload artifacts
         uses: actions/upload-pages-artifact@v1
   deploy:
