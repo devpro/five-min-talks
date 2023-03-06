@@ -5,6 +5,7 @@ lineNumbers: false
 css: unocss
 transition: slide-left
 title: Presentation-as-code
+background: /images/presentation-as-code-ai-20230306.jpg
 ---
 
 # Presentation-as-code
